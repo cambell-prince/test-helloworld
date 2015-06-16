@@ -24,5 +24,12 @@ namespace HelloLib.Test
             Assert.AreEqual("Hallo Welt!", result);
         }
 
+        [Test]
+        public void TestBonjour_ReturnsBonjour()
+        {
+            string result = Class1.SayBonjour();
+            Assert.AreEqual("Bonjour World!", result);
+        }
+
     }
 }
