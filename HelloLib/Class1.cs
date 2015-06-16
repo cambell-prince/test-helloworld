@@ -17,5 +17,11 @@ namespace HelloLib
         {
             return "Hallo Welt!";
         }
-    }
+
+		// French
+		public static string SayBonjour()
+		{
+			return "";
+		}
+	}
 }
